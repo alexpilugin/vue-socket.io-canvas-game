@@ -1,0 +1,23 @@
+{
+  "name": "vue-socket-game",
+  "version": "1.0.0",
+  "description": "Multiplayer Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "vue",
+    "socket.io"
+  ],
+  "author": "Alex Pilugin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

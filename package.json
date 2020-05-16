@@ -1,0 +1,24 @@
+{
+  "name": "vue-socket-game",
+  "version": "1.0.0",
+  "description": "Multiplayer Game",
+  "keywords": [
+    "vue",
+    "socket.io",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npm-run-all --parallel start:client start:server",
+    "start:server": "cd \"server\" && npm run start",
+    "start:client": "cd \"client\" && npm run serve",
+    "setup:client": "cd \"client\" && npm i",
+    "setup:server": "cd \"server\" && npm i",
+    "setup": "npm i && npm run setup:server && npm run setup:client"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
